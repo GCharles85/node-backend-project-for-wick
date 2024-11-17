@@ -1,0 +1,18 @@
+{
+  "name": "backend-project-for-wick",
+  "version": "1.0.0",
+  "description": "node backend for wick to be able to retrieve rss info and rate limit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Guyriano Charles",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
